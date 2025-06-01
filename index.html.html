@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>障害児童対応報告フォーム</title>
+</head>
+<body>
+  <h2>障害児童対応・報告フォーム</h2>
+  <form id="reportForm">
+    <label>報告者名：<input type="text" name="reporter" required></label><br><br>
+    <label>対象児童：<input type="text" name="child"></label><br><br>
+
+    <label>状況：<textarea name="situation" id="situation"></textarea></label><br>
+    <button type="button" onclick="startDictation('situation')">🎙 音声入力</button><br><br>
+
+    <label>対応内容：<textarea name="response" id="response"></textarea></label><br>
+    <button type="button" onclick="startDictation('response')">🎙 音声入力</button><br><br>
+
+    <label>所感・備考：<textarea name="remarks"></textarea></label><br><br>
+
+    <button type="submit">送信</button>
+  </form>
+
+  <p id="status"></p>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwtabzSes51ayP3elRyA21OZKFQSWEqYlRkYCv3nrXxQKL58t_AExpj9uWb_cFa8D55aQ/exec';
+
+    document.getElementById('reportForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const formData = new FormData(this);
+      fetch(scriptURL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: formData
+      })
+      .then(() => document.getElementById('status').innerText = '送信完了しました')
+      .catch(error => document.getElementById('status').innerText = '送信エラー: ' + error);
+    });
+
+    function startDictation(fieldId) {
+      const recognition = new webkitSpeechRecognition();
+      recognition.lang = 'ja-JP';
+      recognition.continuous = true; // 長めの認識を可能にする
+      recognition.interimResults = false;
+      recognition.maxAlternatives = 1;
+      recognition.start();
+
+      recognition.onresult = function(event) {
+        let finalTranscript = '';
+        for (let i = 0; i < event.results.length; ++i) {
+          finalTranscript += event.results[i][0].transcript + '\n';
+        }
+        document.getElementById(fieldId).value = finalTranscript.trim();
+      };
+
+      recognition.onerror = function(event) {
+        alert('音声認識エラー: ' + event.error);
+      };
+    }
+  </script>
+</body>
+</html>
