@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "last_verified": "2026-07-19",
+  "store_numbers": [60, 61],
+  "stores": [
+    {
+      "name": "レストラン 白山文雅",
+      "alternate_name": "Restaurant Shirayama Bunga／白山文雅",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市白山1-2-1",
+      "phone": "0952-23-4789",
+      "hours": "火〜金 11:00〜14:30（L.O.）、17:30〜20:00（L.O.）／土・日・祝 11:00〜15:00（L.O.）、17:30〜20:00（L.O.）",
+      "closed": "月曜（祝日の場合は翌日）・木曜夜の部",
+      "parking": "専用駐車場6台",
+      "genres": ["欧風カレー", "洋食", "ハヤシライス"],
+      "recommended": ["欧風カレー", "ハヤシライス", "カレーコース", "テイクアウトカレー"],
+      "reservation": "予約・持ち帰りは電話受付",
+      "access": "佐賀市白山1丁目。佐賀駅南口から徒歩圏",
+      "official_site": "https://shirayamabunga.com/",
+      "opened": "1958年創業",
+      "verification_note": "候補一覧の『Restaurant Shirayama Bunga』は現行公式名称『レストラン 白山文雅』として確認。2026年2月にテイクアウト価格改定の案内あり。木曜は昼のみ営業",
+      "source": "白山文雅公式・佐賀県観光サイト・佐賀市観光協会（2026-07-19確認）"
+    },
+    {
+      "name": "wood-style cafe",
+      "alternate_name": "ウッドスタイルカフェ",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市諸富町徳富71-1 いわい家具敷地内",
+      "phone": "0952-47-6638",
+      "hours": "ランチ11:00〜15:00（L.O.14:30）／土曜夜18:00〜21:00との県案内",
+      "closed": "不定休",
+      "parking": "あり",
+      "genres": ["カフェ", "ピザ", "パスタ", "スイーツ"],
+      "recommended": ["石窯ピザ", "パスタ", "ドリア", "ストロベリーピザ", "ふわとろフレンチトースト"],
+      "reservation": "電話またはノトヒバベーカリー公式LINEで予約",
+      "child_friendly": "キッズスペースあり。授乳ケープ貸出あり",
+      "night_use": "10名以上の団体は夜貸切相談可。土曜は要相談",
+      "access": "国道208号沿い。諸富ICから車で約6分",
+      "official_site": "https://www.wood-style-cafe.com/",
+      "verification_note": "公式サイトは11:00〜15:00・不定休を案内。佐賀県子育てポータルでは土曜夜18:00〜21:00も掲載。夜営業は来店前確認推奨",
+      "source": "wood-style cafe公式・佐賀県子育てポータル・食べログ（2026-07-19確認）"
+    }
+  ]
+}
