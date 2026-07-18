@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "last_verified": "2026-07-18",
+  "store_numbers": [26, 27],
+  "stores": [
+    {
+      "name": "旬味処 赤坂",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市大財1-6-69",
+      "phone": "050-8883-8382",
+      "hours": "月・火・木・金・土・日 18:00〜23:00",
+      "closed": "水曜",
+      "genres": ["日本料理", "懐石", "和食"],
+      "recommended": ["旬味おまかせ", "赤坂おまかせ", "特選赤坂おまかせ", "飲み放題付きコース", "旬の魚介を使った一品料理", "和食ランチ"],
+      "reservation": "予約可",
+      "private_room": "あり",
+      "payment": "カード・電子マネー可との掲載",
+      "access": "佐賀駅から約965m／徒歩約15分",
+      "opened": "2026-04-01",
+      "official_instagram": "https://www.instagram.com/shunmi_dokoro_akasaka/",
+      "verification_note": "夜営業情報に加えて2026年夏時点でランチ提供の紹介もあるため、昼利用は営業日・提供数を事前確認推奨",
+      "source": "佐賀経済新聞・サガテレビ・食べログ・Yahoo!マップ（2026-07-18確認）"
+    },
+    {
+      "name": "クレープ CHACHA",
+      "alternate_name": "CREPE CHACHA／クレープチャチャ",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市天祐1-5-1 田中ビル102",
+      "phone": "掲載確認できず",
+      "hours": "12:00〜19:00",
+      "closed": "公式Instagramの営業案内を確認",
+      "genres": ["クレープ", "スイーツ", "テイクアウト"],
+      "recommended": ["アイスブリュレ", "プレーンブリュレ", "チョコバナナ", "抹茶白玉あんこ", "季節限定クレープ"],
+      "takeout": "対応あり",
+      "payment": "QRコード決済対応との掲載",
+      "access": "鍋島駅から約1.46km／佐賀駅南口から徒歩約24分",
+      "opened": "2025-04-08",
+      "official_instagram": "https://www.instagram.com/crepe_chacha/",
+      "verification_note": "電話番号と固定定休日は確認できなかったため、営業日・売り切れ情報は公式Instagram確認推奨",
+      "source": "佐賀経済新聞・Yahoo!マップ・食べログ・号外NET（2026-07-18確認）"
+    }
+  ]
+}
