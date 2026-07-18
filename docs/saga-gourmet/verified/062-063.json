@@ -1,0 +1,44 @@
+{
+  "version": "1.0",
+  "last_verified": "2026-07-19",
+  "store_numbers": [62, 63],
+  "stores": [
+    {
+      "name": "ひろちゃんラーメン",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市諸富町山領172-1",
+      "phone": "0952-37-3808",
+      "hours": "月〜金・日 10:30〜15:00。スープがなくなり次第終了",
+      "closed": "土曜",
+      "parking": "あり",
+      "price_lunch": "1,000円未満目安",
+      "genres": ["ラーメン", "豚骨ラーメン"],
+      "recommended": ["ラーメン", "煮玉子ラーメン", "チャーシュー麺", "餃子"],
+      "reservation": "予約不可",
+      "seats": "18席",
+      "private_room": "なし",
+      "smoking": "全席禁煙",
+      "payment": "カード・電子マネー・QRコード決済不可との掲載",
+      "access": "小杭バス停から徒歩約1分",
+      "opened": "2018-10-07",
+      "official_instagram": "https://www.instagram.com/hiro2018107/",
+      "verification_note": "古い媒体には夜営業の記載もあるが、佐賀市飲食店情報・食べログ・Yahoo!マップの現行表示は10:30〜15:00で一致。臨時休業や売り切れは公式Instagram確認推奨",
+      "source": "佐賀市飲食店情報・食べログ・Yahoo!マップ・公式Instagram（2026-07-19確認）"
+    },
+    {
+      "name": "OLDIES BUT GOODIES",
+      "alternate_name": "oldies but goodies／オールディーズ・バット・グッディーズ",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市諸富町大字為重341-1",
+      "category": "セレクトショップ・雑貨店",
+      "hours": "公開記事では確認できず",
+      "closed": "公開記事では確認できず",
+      "genres": ["雑貨", "古着", "ヴィンテージ品", "お香"],
+      "recommended": ["ヴィンテージ花瓶", "お香", "古着", "PUEBCOのポーチ"],
+      "opened": "2025-05-11",
+      "location_note": "橋の駅ドロンパ近く、きみどりバーガー諸富店の隣",
+      "verification_note": "候補一覧ではハンバーガー店として登録されていたが、現行のOLDIES BUT GOODIESはシンガーソングライターが営むセレクトショップ。飲食店ではないためカテゴリを補正。隣接するきみどりバーガーと混同した可能性が高い",
+      "source": "サガテレビ・佐賀経済新聞（2026-07-19確認）"
+    }
+  ]
+}
