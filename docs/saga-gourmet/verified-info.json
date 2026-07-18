@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "last_verified": "2026-07-18",
+  "stores": [
+    {
+      "name": "クラフトミート福一",
+      "alternate_name": "CRAFT MEET Fukuichi",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市唐人1-2-6",
+      "phone": "0952-22-4129",
+      "hours": "水・木・金・土 11:00〜15:00（L.O.14:30）",
+      "closed": "月・火・日",
+      "parking": "近隣にコインパーキングあり（店舗情報上は駐車場あり表記）",
+      "price_lunch": "1,000〜1,999円目安",
+      "genres": ["ハンバーグ", "焼肉"],
+      "recommended": ["佐賀牛焼肉ランチ"],
+      "reservation": "予約可",
+      "smoking": "全席禁煙",
+      "verification_note": "営業時間・定休日は変更される場合があるため、訪問前の電話確認推奨",
+      "source": "食べログ店舗情報（2026-07-18確認）"
+    }
+  ]
+}
