@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "last_verified": "2026-07-18",
   "stores": [
     {
@@ -18,6 +18,27 @@
       "smoking": "全席禁煙",
       "verification_note": "営業時間・定休日は変更される場合があるため、訪問前の電話確認推奨",
       "source": "食べログ店舗情報（2026-07-18確認）"
+    },
+    {
+      "name": "路地裏の佐藤家",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市天神2-4-12",
+      "phone": "0952-38-5991",
+      "hours": "水・木・金・土・日 11:00〜14:30",
+      "closed": "月・火",
+      "parking": "あり（店舗隣接2台）",
+      "price_lunch": "1,000〜1,999円目安",
+      "genres": ["カフェ", "スープカレー"],
+      "recommended": ["スープカレー", "デザート", "自家焙煎コーヒー"],
+      "reservation": "予約可",
+      "seats": "26席",
+      "private_room": "なし",
+      "smoking": "全席禁煙",
+      "payment": "カード・電子マネー・QRコード決済はいずれも不可との掲載",
+      "access": "佐賀駅から約534m",
+      "official_instagram": "https://www.instagram.com/takeshit.1220.s/",
+      "verification_note": "過去掲載では11:30〜15:00表記も確認できるため、訪問前に最新情報の確認推奨",
+      "source": "食べログ・Yahoo!マップ店舗情報（2026-07-18確認）"
     }
   ]
 }
