@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "last_verified": "2026-07-18",
+  "store_numbers": [32, 33],
+  "stores": [
+    {
+      "name": "焼肉 麒麟屋",
+      "alternate_name": "麒麟屋",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市若宮1-11-1",
+      "phone": "0952-31-6009",
+      "hours": "月・水〜日 11:30〜14:00（L.O.13:30）／17:00〜23:00（L.O.22:30）",
+      "closed": "火曜",
+      "parking": "媒体で『あり』『なし』が分かれるため要確認",
+      "price_lunch": "2,000〜2,999円目安",
+      "price_dinner": "5,000〜5,999円目安",
+      "genres": ["焼肉", "ホルモン", "居酒屋"],
+      "recommended": ["黒毛和牛焼肉", "ランチ焼肉", "ホルモン"],
+      "reservation": "予約可",
+      "seats": "38〜50席と媒体差あり",
+      "private_room": "媒体で有無が分かれるため要確認",
+      "smoking": "全席禁煙",
+      "payment": "カード可。電子マネーは媒体で記載差あり。QRコード決済不可との掲載",
+      "access": "JR佐賀駅北口から徒歩約15〜17分",
+      "official_site": "https://kirinya-mesuushi.jp/",
+      "verification_note": "駐車場・席数・個室・電子マネー情報に媒体差があるため、予約時または来店前に店舗確認推奨",
+      "source": "佐賀市飲食店情報・佐賀県観光サイト・食べログ・ホットペッパー（2026-07-18確認）"
+    },
+    {
+      "name": "幸陽閣",
+      "reading": "こうようかく",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市下田町3-31",
+      "phone": "掲載確認できず",
+      "hours": "月〜土 11:00〜15:00（L.O.15:00）",
+      "closed": "日曜・不定休あり",
+      "parking": "店舗横に約10台",
+      "price_lunch": "1,000円未満目安",
+      "genres": ["佐賀ラーメン", "豚骨ラーメン"],
+      "recommended": ["ラーメン", "卵入りラーメン", "チャーシューメン"],
+      "reservation": "予約不可",
+      "seats": "32席（テーブル22席・座敷10席）",
+      "private_room": "なし",
+      "smoking": "全席禁煙",
+      "payment": "カード・電子マネー・QRコード決済不可",
+      "access": "鍋島駅から徒歩約30分／約2km",
+      "official_instagram": "https://www.instagram.com/kouyoukaku_saga",
+      "verification_note": "不定休は公式Instagramで案内されるため、遠方からの訪問は営業確認推奨",
+      "source": "食べログ店舗情報・公式Instagram案内（2026-07-18確認）"
+    }
+  ]
+}
