@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "last_verified": "2026-07-18",
+  "store_numbers": [54, 55],
+  "stores": [
+    {
+      "name": "博多ラーメン 一楽堂 兵庫本店",
+      "alternate_name": "一楽堂／候補一覧の『らーめん楽堂』を補正",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市兵庫南2-14-1",
+      "phone": "0952-27-9250",
+      "hours": "11:00〜22:00",
+      "closed": "公式サイトで固定定休日の掲載確認できず",
+      "parking": "ありとの掲載",
+      "genres": ["豚骨ラーメン", "ちゃんぽん", "ラーメン"],
+      "recommended": ["豚骨ラーメン", "一楽ちゃんぽん", "醤油ラーメン", "半チャーハン"],
+      "access": "佐賀市兵庫南2丁目",
+      "official_site": "https://ichirakudo.com/",
+      "verification_note": "候補一覧の『らーめん楽堂』に一致する佐賀市内店舗は確認できず、説明の『濃厚豚骨で飲みやすい』と名称の近さから一楽堂を候補補正した。完全同定ではないため、元情報の出典確認が望ましい",
+      "source": "一楽堂公式サイト・佐賀市飲食めぐり・Retty（2026-07-18確認）"
+    },
+    {
+      "name": "一鳩の森／MARIA GALLERY周辺店舗",
+      "city": "佐賀市",
+      "status": "要再調査",
+      "candidate_address": "MARIA GALLERYは佐賀県佐賀市神野東1-2-9との過去掲載あり",
+      "candidate_phone": "0952-29-7433との過去掲載あり",
+      "candidate_genres": ["カフェ", "ランチ", "ギャラリー"],
+      "candidate_recommended": ["穴場ランチ候補"],
+      "verification_note": "『一鳩の森』という佐賀市内店舗を特定できず、MARIA GALLERYは展示会場としての過去情報のみ確認できた。現行の飲食営業や周辺の対象店舗を特定できないため、誤同定を避けて保留",
+      "source": "候補一覧・MARIA GALLERY過去イベント情報との照合（2026-07-18確認）"
+    }
+  ]
+}
