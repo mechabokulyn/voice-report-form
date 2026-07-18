@@ -1,5 +1,5 @@
 {
-  "version": "1.6",
+  "version": "1.8",
   "last_verified": "2026-07-18",
   "stores": [
     {
@@ -127,6 +127,46 @@
       "official_instagram": "https://www.instagram.com/jinenjyo.togawa/",
       "verification_note": "営業時間・定休日の掲載に差異があり、とろろ在庫切れによる臨時休業もあるため電話確認推奨",
       "source": "佐賀県観光サイト・さがすたいる・食べログ・ホットペッパー（2026-07-18確認）"
+    },
+    {
+      "name": "saburo36 cafe",
+      "alternate_name": "旧 古民家カフェ＆バル saburo36",
+      "city": "鳥栖市",
+      "address": "佐賀県鳥栖市本鳥栖町570-1",
+      "phone": "0942-82-9563",
+      "hours": "11:30〜22:00",
+      "closed": "水曜（その他不定休あり）",
+      "parking": "あり（第1〜第3駐車場）",
+      "genres": ["カフェ", "カレー", "スイーツ"],
+      "recommended": ["A5等級佐賀牛焼きカレー", "佐賀牛カレー", "saburoフレンチトースト"],
+      "reservation": "通常客は予約不要。10名以上の団体のみ電話予約可",
+      "access": "JR鳥栖駅から徒歩約5分",
+      "pet": "ガーデンテラス席は犬同伴可",
+      "official_site": "https://saburo36.com/",
+      "verification_note": "営業時間変更や臨時休業はInstagram等で告知される場合があるため訪問前確認推奨",
+      "source": "saburo36 cafe公式サイト（2026-07-18確認）"
+    },
+    {
+      "name": "旬菜中華屋 龍房",
+      "reading": "しゅんさいちゅうかや りゅうぼう",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市本庄町本庄864-1 ジェネス本庄1F",
+      "phone": "0952-28-6119",
+      "hours": "月・水〜日 11:30〜14:00（L.O.13:30）／17:00〜22:30（L.O.22:00）",
+      "closed": "火曜",
+      "parking": "あり（10台）",
+      "price_lunch": "1,000〜1,999円目安",
+      "price_dinner": "1,000〜1,999円目安",
+      "genres": ["中華料理", "ちゃんぽん"],
+      "recommended": ["龍房特製ちゃんぽん", "黒ごま担々麺", "チャーハン"],
+      "reservation": "電話予約できる場合あり",
+      "seats": "40席",
+      "private_room": "なし",
+      "payment": "カード・電子マネー・QRコード決済不可との掲載",
+      "access": "佐賀市営バス『ちやの木』停留所から徒歩約1分",
+      "takeout": "対応ありとの掲載",
+      "verification_note": "喫煙情報は古い掲載の可能性があるため、現在の受動喫煙対応は店舗へ確認推奨",
+      "source": "食べログ・ホットペッパー・エキテン（2026-07-18確認）"
     }
   ]
 }
