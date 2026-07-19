@@ -1,1 +1,52 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#963c17"><meta property="og:title" content="佐賀グルメ候補マップ Ver.1.1"><meta property="og:description" content="TikTokで見つけた佐賀のグルメ候補69件"><title>佐賀グルメ候補マップ Ver.1.1</title><style>*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,sans-serif;background:#fff8ef;color:#2b211c}header{position:sticky;top:0;z-index:3;background:linear-gradient(135deg,#7a2d12,#d76a27);color:#fff;padding:16px 14px}h1{margin:0;font-size:22px}main{max-width:1000px;margin:auto;padding:12px}input{width:100%;padding:13px;border:1px solid #d8c5b8;border-radius:12px;font-size:16px}#chips{display:flex;gap:7px;overflow:auto;padding:10px 0}button{border:1px solid #d8c5b8;background:#fff;border-radius:999px;padding:8px 11px;white-space:nowrap}button.on{background:#963c17;color:#fff}#list{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}article{background:#fff;border:1px solid #ead9cc;border-radius:16px;padding:14px}h2{font-size:18px;margin:3px 0}.city{font-size:12px;color:#963c17;font-weight:bold}.tag{display:inline-block;background:#f9e7da;color:#843817;border-radius:99px;padding:4px 8px;font-size:12px}p{font-size:14px;line-height:1.5}.btns{display:grid;grid-template-columns:1fr 1fr;gap:7px}a{text-align:center;text-decoration:none;padding:10px;border-radius:10px;font-weight:bold;font-size:13px}.map{background:#963c17;color:#fff}.tab{background:#f4ece7;color:#5d2a14}footer{padding:24px;text-align:center;color:#75675f;font-size:12px}</style></head><body><header><h1>🍜 佐賀グルメ候補マップ <small style="font-size:12px">Ver.1.1</small></h1><div>TikTokで見つけた69店を検索・地図で確認</div></header><main><input id="q" placeholder="店名・地域・料理で検索"><div id="chips"></div><p id="count"></p><div id="list"></div></main><footer>営業時間・定休日・価格・閉店移転は変更される場合があります。訪問前に公式情報をご確認ください。</footer><script src="data.js"></script><script>let cat='すべて';const cats=['すべて',...new Set(S.map(x=>x[2]))],chips=document.getElementById('chips'),list=document.getElementById('list'),q=document.getElementById('q'),count=document.getElementById('count');function esc(x){return x.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}function renderChips(){chips.innerHTML='';cats.forEach(x=>{const b=document.createElement('button');b.textContent=x;b.className=x===cat?'on':'';b.onclick=()=>{cat=x;renderChips();render()};chips.appendChild(b)})}function render(){const t=q.value.toLowerCase(),a=S.filter(x=>(cat==='すべて'||x[2]===cat)&&x.join(' ').toLowerCase().includes(t));count.textContent=`${a.length}件表示／全${S.length}件`;list.innerHTML=a.map(x=>{const query=encodeURIComponent(x[0]+' '+x[1]);const map='https://www.google.com/maps/search/?api=1&query='+query;const tab='https://www.google.com/search?q='+encodeURIComponent('site:tabelog.com '+x[0]+' '+x[1]);return `<article><div class="city">${esc(x[1])}</div><h2>${esc(x[0])}</h2><span class="tag">${esc(x[2])}</span><p>${esc(x[3])}</p><div class="btns"><a class="map" href="${map}" target="_blank">Googleマップ</a><a class="tab" href="${tab}" target="_blank">食べログ検索</a></div></article>`}).join('')}q.oninput=render;renderChips();render();</script></body></html>
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#9e3f1c">
+  <meta name="description" content="佐賀県内のグルメ候補を、確認済み情報から検索・比較できる店舗ガイドです。">
+  <meta property="og:title" content="佐賀グルメガイド">
+  <meta property="og:description" content="佐賀の気になるお店を地域・ジャンルから探せます。">
+  <title>佐賀グルメガイド</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">SAGA GOURMET GUIDE</p>
+      <h1>佐賀グルメガイド</h1>
+      <p class="lead">TikTokなどで見つけた佐賀県内のお店を調査し、住所・営業時間・おすすめ料理をまとめました。気になる店を検索して、次のお出かけ先を見つけてください。</p>
+      <div class="stats" aria-label="掲載状況">
+        <div class="stat"><strong id="totalStat">—</strong><span>掲載データ</span></div>
+        <div class="stat"><strong id="verifiedStat">—</strong><span>確認済み</span></div>
+        <div class="stat"><strong id="pendingStat">—</strong><span>要再調査</span></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="toolbar-wrap">
+    <div class="toolbar">
+      <label class="search"><span class="sr-only"></span><input id="q" type="search" placeholder="店名・料理・住所で検索" autocomplete="off"></label>
+      <select id="city" aria-label="地域で絞り込む"><option>すべて</option></select>
+      <button id="favoriteToggle" class="ghost" type="button">☆ お気に入り</button>
+    </div>
+  </div>
+
+  <main class="shell">
+    <nav id="chips" class="chips" aria-label="ジャンル"></nav>
+    <div class="results-head">
+      <div><p class="eyebrow" style="color:#9e3f1c">RESTAURANTS</p><h2>お店を探す</h2></div>
+      <p id="resultCount">読み込み中…</p>
+    </div>
+    <section id="list" class="grid" aria-live="polite"><div class="loading">店舗データを読み込んでいます…</div></section>
+  </main>
+
+  <dialog id="detailDialog"><div id="dialogBody" class="dialog-inner"></div></dialog>
+
+  <footer class="footer">
+    <strong>佐賀グルメガイド</strong><br>
+    営業時間・定休日・価格などは変更される場合があります。訪問前に公式情報または店舗へご確認ください。
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>
