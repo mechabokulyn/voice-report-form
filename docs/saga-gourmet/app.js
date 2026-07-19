@@ -1,4 +1,4 @@
-const FILES=["verified-info.json",...Array.from({length:30},(_,i)=>{const a=24+i*2,b=a+1;return `verified/${String(a).padStart(3,"0")}-${String(b).padStart(3,"0")}.json`}),"verified/084.json","verified/085-088.json"];
+const FILES=["verified-info.json",...Array.from({length:30},(_,i)=>{const a=24+i*2,b=a+1;return `verified/${String(a).padStart(3,"0")}-${String(b).padStart(3,"0")}.json`}),"verified/084.json","verified/085-088.json","verified/089.json"];
 const state={stores:[],query:"",city:"すべて",genre:"すべて",favoritesOnly:false,favorites:new Set(JSON.parse(localStorage.getItem("saga-gourmet-favorites")||"[]"))};
 const $=s=>document.querySelector(s);const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 function norm(v){return String(v||"").toLowerCase().replace(/[\s・。、（）()「」『』]/g,"")}
