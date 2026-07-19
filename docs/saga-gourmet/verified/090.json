@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "last_verified": "2026-07-19",
+  "store_numbers": [90],
+  "stores": [
+    {
+      "name": "dining bar OZ",
+      "alternate_name": "Dining Bar OZ／ダイニングバー オズ",
+      "city": "佐賀市",
+      "address": "佐賀県佐賀市栄町2-8 さかえヤマトビル1F",
+      "phone": "0952-20-8101",
+      "hours": "月〜土・祝日・祝前日・祝後日 17:00〜翌1:00（L.O.24:00）",
+      "closed": "日曜",
+      "parking": "なし。近隣コインパーキング利用",
+      "price_dinner": "3,000〜3,999円目安",
+      "genres": ["ダイニングバー", "洋食", "ピザ", "ホットドッグ", "肉料理"],
+      "recommended": ["県産牛の赤身ステーキ", "田嶋ポークのスペアリブ", "ピザ", "ホットドッグ", "飲み放題付きコース", "モクテル・オリジナルカクテル"],
+      "reservation": "予約可。貸切予約は電話問い合わせ",
+      "seats": "60席",
+      "private_room": "なし",
+      "private_use": "貸切可（20〜50人との掲載）",
+      "payment": "クレジットカード・交通系電子マネー・楽天Edy・iD・QUICPay・PayPay・d払い・楽天ペイ・au PAY等に対応との掲載",
+      "access": "JR佐賀駅から徒歩約1〜3分",
+      "official_instagram": "https://www.instagram.com/diningbar.oz/",
+      "opened": "2026-01-30",
+      "verification_note": "ユーザー提供TikTok画面の住所、営業時間、日曜定休、佐賀駅徒歩約1分は食べログ・ヒトサラ・Yahoo!マップと一致。肉料理、県産食材、カクテル、宴会・二次会利用を特徴とする。喫煙情報は媒体差があるため、現行ルールは店舗へ確認推奨",
+      "source": "ユーザー提供TikTok画面・食べログ・ヒトサラ・Yahoo!マップ（2026-07-19確認）"
+    }
+  ]
+}
